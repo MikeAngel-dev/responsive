@@ -6,6 +6,7 @@ this script makes your html application responsive and resizeable for all displa
 // to make your application responsive, we need to import it into your html file. however, we cannot import it with the script tag or with the jQuery.ajax function in init because the script will be blocked. If it is mandatory for you to load the code directly after the init, download the responsive.js and run the JS locally or on the server that runs the html. 
 
 //code to import in main html file
+```javascript
 <script>
 	const serverUrl = 'https://raw.githubusercontent.com/MikeAngel-dev/responsive/main/responsive.js'
 	//fetching serverscript
@@ -15,6 +16,7 @@ this script makes your html application responsive and resizeable for all displa
 	//done fetching and executing with eval(code);
 
 </script>
+```
 //end of code
 
 !IMPORTANT!
