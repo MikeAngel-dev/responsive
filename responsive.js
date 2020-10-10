@@ -2701,4 +2701,5 @@ var Application = function() {
 	window.document.addEventListener("DOMContentLoaded", self.onloadHandler);
 }
 
+console.log('started responsive.js');
 window.application = new Application();
